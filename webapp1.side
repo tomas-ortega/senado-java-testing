@@ -1,0 +1,269 @@
+{
+  "id": "479a1b97-5e75-4374-9d4c-4a6057991c6b",
+  "version": "2.0",
+  "name": "webapp1",
+  "url": "https://www.google.es",
+  "tests": [{
+    "id": "2870dce5-25ca-4df7-b48f-0b6d1a4b7bef",
+    "name": "testSearchGoogle",
+    "commands": [{
+      "id": "78b5e4e4-4a1b-44ce-ac18-714c780fd414",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2e7ce2b-34bb-4133-b274-a0771a3233fa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x554",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d8060df-8641-47b0-95f2-8a3bc653859d",
+      "comment": "",
+      "command": "click",
+      "target": "id=lga",
+      "targets": [
+        ["id=lga", "id"],
+        ["css=#lga", "css:finder"],
+        ["xpath=//div[@id='lga']", "xpath:attributes"],
+        ["xpath=//span[@id='body']/center/div", "xpath:idRelative"],
+        ["xpath=//center/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d643499-3ebc-4b0a-a393-955b075b6532",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dd853f6-32c3-4bec-9bdc-4b7762da34ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=viewport",
+      "targets": [
+        ["id=viewport", "id"],
+        ["css=#viewport", "css:finder"],
+        ["xpath=//div[@id='viewport']", "xpath:attributes"],
+        ["xpath=//body[@id='gsr']/div", "xpath:idRelative"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "464b1967-1cee-4527-b7c0-3d8005b70cac",
+      "comment": "",
+      "command": "click",
+      "target": "id=lga",
+      "targets": [
+        ["id=lga", "id"],
+        ["css=#lga", "css:finder"],
+        ["xpath=//div[@id='lga']", "xpath:attributes"],
+        ["xpath=//span[@id='body']/center/div", "xpath:idRelative"],
+        ["xpath=//center/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "304d37c7-1275-40f7-b736-136aa3f9bcdc",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2079e747-97b1-4c1d-a481-d3ca44196a27",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "selenium ide"
+    }, {
+      "id": "a3227536-06a1-40f5-bdf8-8d8c7ddcab61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbhl span",
+      "targets": [
+        ["css=.sbhl span", "css:finder"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div[2]/div[2]/ul/li/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//li/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'selenium ide')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08d95917-1bf4-4efd-ab2f-80274ecce3ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Imágenes",
+      "targets": [
+        ["linkText=Imágenes", "linkText"],
+        ["css=.hdtb-mitem:nth-child(2) > .q", "css:finder"],
+        ["xpath=//a[contains(text(),'Imágenes')]", "xpath:link"],
+        ["xpath=//div[@id='hdtb-msb-vis']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=selenium+ide&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjSpNDLhvXiAhUxDGMBHW8FCiYQ_AUIECgB')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/div/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Imágenes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3ce4d71f-50b5-42c0-9830-fd6da2ac0f43",
+    "name": "testSearchGoogleDuplicated",
+    "commands": [{
+      "id": "f96cb8ff-aadd-489a-9ba3-9335e74ff724",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e204a92-9aa6-4515-a6e0-091f2683185d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x554",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c380ab3-6080-4a49-b61d-f7b0edcae602",
+      "comment": "",
+      "command": "click",
+      "target": "id=lga",
+      "targets": [
+        ["id=lga", "id"],
+        ["css=#lga", "css:finder"],
+        ["xpath=//div[@id='lga']", "xpath:attributes"],
+        ["xpath=//span[@id='body']/center/div", "xpath:idRelative"],
+        ["xpath=//center/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84cac59e-07c6-43dd-8846-3b70e56fc1a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=viewport",
+      "targets": [
+        ["id=viewport", "id"],
+        ["css=#viewport", "css:finder"],
+        ["xpath=//div[@id='viewport']", "xpath:attributes"],
+        ["xpath=//body[@id='gsr']/div", "xpath:idRelative"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c940d1a8-01b4-4446-a584-29c414e3be64",
+      "comment": "",
+      "command": "click",
+      "target": "id=lga",
+      "targets": [
+        ["id=lga", "id"],
+        ["css=#lga", "css:finder"],
+        ["xpath=//div[@id='lga']", "xpath:attributes"],
+        ["xpath=//span[@id='body']/center/div", "xpath:idRelative"],
+        ["xpath=//center/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49637978-227d-4198-b1e6-3f9eaafc8527",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55d999f7-89f8-4704-a02e-d4d94a5266d6",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "como pedir un café en málaga"
+    }, {
+      "id": "23d36d4c-606b-4634-a72e-ae6161fb9650",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbhl span",
+      "targets": [
+        ["css=.sbhl span", "css:finder"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div[2]/div[2]/ul/li/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//li/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'selenium ide')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0bbf831-763d-4688-be2b-4ce706b7c5ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Imágenes",
+      "targets": [
+        ["linkText=Imágenes", "linkText"],
+        ["css=.hdtb-mitem:nth-child(2) > .q", "css:finder"],
+        ["xpath=//a[contains(text(),'Imágenes')]", "xpath:link"],
+        ["xpath=//div[@id='hdtb-msb-vis']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=selenium+ide&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjSpNDLhvXiAhUxDGMBHW8FCiYQ_AUIECgB')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/div/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Imágenes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e3ad08d-cf70-4255-9fab-a587504ad3af",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "como pedir un café en málaga - Buscar con Google",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "678b3439-4a0b-4431-86e4-4d7606868785",
+    "name": "test2",
+    "commands": [{
+      "id": "7ff48831-f587-43e3-8d18-aac54c684203",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pakitochokolateroooo.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "652bde63-f530-480b-bf4d-bae3d2b9bb07",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Server Not Found!!!",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "037f935e-7d22-44b4-91f1-326473bed5e9",
+    "name": "LoginCircuit",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2870dce5-25ca-4df7-b48f-0b6d1a4b7bef"]
+  }],
+  "urls": ["https://www.google.es/"],
+  "plugins": []
+}
